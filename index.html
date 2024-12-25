@@ -3,43 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple One-Page Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Timothy Motors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .services {
+            margin-top: 30px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            background-color: #e9ecef;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to our simple one-page website!</p>
-            <button id="alertButton">Click Me</button>
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Learn more about us.</p>
-        </section>
-        <section id="services">
+    <div class="container">
+        <h1>Timothy Motors</h1>
+        <p>Your trusted destination for high-quality, secondhand vehicles.</p>
+        <div class="contact-info">
+            <p><strong>Address:</strong> Tochigi, Japan</p>
+            <p><strong>Contact Number:</strong> +81-123-456-7890</p>
+            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/TimothyMotors" target="_blank">Timothy Motors on Facebook</a></p>
+        </div>
+        <div class="services">
             <h2>Our Services</h2>
-            <p>Discover what we offer.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Simple Website. All rights reserved.</p>
-    </footer>
-    <script src="scripts.js"></script>
+            <ul>
+                <li>Pre-owned Car Sales</li>
+                <li>Vehicle Trade-ins</li>
+                <li>Financing Options</li>
+                <li>Vehicle Inspections</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
